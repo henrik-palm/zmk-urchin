@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-#include "keymap_italian.h"
+#include "keymap_danish.h"
 
 // Layer definitions
 #define BASE 0
@@ -89,10 +89,15 @@
 		default_layer {
 			label = "Base";
 			bindings = <
-			&kp Q &kp W &kp E &kp R &kp T           &kp Y &kp U  &kp I     &kp O   &kp P 
-			&kp A &kp S &kp D &kp F &kp G           &kp H &kp J  &kp K     &kp L &kp IT_OGRV
-			&kp Z &kp X &kp C &kp V &kp B           &kp N &kp M  &kp COMMA &kp DOT &kp IT_UGRV
-							&mo EXT &qt LSHIFT SPACE           &kp SPACE &sl SYM
+		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+            &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P 
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+            &kp A      &kp S      &kp D      &kp F      &kp G          &kp H      &kp J      &kp K      &kp L      &kp DK_AA
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp AE     &kp DK_OE
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                           &mo EXT  &qt LSHIFT SPACE   &kp SPACE  &sl SYM
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 			>;
 		};
 
@@ -100,10 +105,25 @@
 		sym_layer {
 			label = "Sym.";
 			bindings = <
-			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-			&kp IT_LESS &kp IT_USD &kp IT_LPAR &kp IT_LBRC &kp IT_LBKT  &kp IT_EQL &kp IT_QUES &kp IT_SQUOT &kp IT_MINUS &kp IT_AST
-			&kp IT_GREAT &kp IT_PERC &kp IT_RPAR &kp IT_RBRC &kp IT_RBKT 	&kp IT_AT &kp IT_EXCL &kp IT_DQUOT &kp IT_PLUS &kp IT_FSLH
-														&mo FNC  &mo SYM2       &trans &trans
+		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│          │  $       │  @       │  =       │          │   │          │  <       │  ?       │  +       │          │
+            &trans     &kp RA(N4) &kp RA(N2) &kp RPAR   &trans         &trans     &kp NUBS   &kp UNDER  &kp MINUS  &trans
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│  `       │  |       │  "       │  :       │  %       │   │  (       │  -       │  &       │  /       │  *       │
+            &btick &kp RA(EQUAL)  &kp LS(N2) &kp LS(DOT) &kp PRCNT     &kp ASTRK  &kp FSLH   &kp CARET  &kp AMPS   &kp PIPE
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │          │  #       │  .       │          │   │          │  {       │  [       │  ~       │          │
+            &sk LALT   &trans     &kp LS(N3) &kp DOT    &trans         &trans     &kp RA(N7) &kp RA(N8) &tilde     &trans
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                            &mo FNC     &mo SYM2       &trans     &trans
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+		
+		/*
+		*	&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
+		*	&kp IT_LESS &kp IT_USD &kp IT_LPAR &kp IT_LBRC &kp IT_LBKT  &kp IT_EQL &kp IT_QUES &kp IT_SQUOT &kp IT_MINUS &kp IT_AST
+		*	&kp IT_GREAT &kp IT_PERC &kp IT_RPAR &kp IT_RBRC &kp IT_RBKT 	&kp IT_AT &kp IT_EXCL &kp IT_DQUOT &kp IT_PLUS &kp IT_FSLH
+		*												&mo FNC  &mo SYM2       &trans &trans
+		*/
 			>;
 		};
 

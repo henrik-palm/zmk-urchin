@@ -2,10 +2,11 @@ file_format: "1"
 id: urchin
 name: urchin
 type: shield
-url: https://github.com/duckyb/urchin
+url: https://github.com/henrik-palm/zmk-urchin
 requires: [pro_micro]
 features:
   - keys
 siblings:
   - urchin_left
   - urchin_right
+  - urchin_dongle
