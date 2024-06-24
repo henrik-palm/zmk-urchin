@@ -106,24 +106,17 @@
 			label = "Sym.";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │  $       │  @       │  =       │          │   │          │  <       │  ?       │  +       │          │
-            &trans     &kp RA(N4) &kp RA(N2) &kp RPAR   &trans         &trans     &kp NUBS   &kp UNDER  &kp MINUS  &trans
+        //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
+            &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  `       │  |       │  "       │  :       │  %       │   │  (       │  -       │  &       │  /       │  *       │
-            &btick &kp RA(EQUAL)  &kp LS(N2) &kp LS(DOT) &kp PRCNT     &kp ASTRK  &kp FSLH   &kp CARET  &kp AMPS   &kp PIPE
+        //│  `       │  <       │  (       │  {       │  [       │   │  =       │  ?       │  &       │          │          │
+            &btick  &kp DK_LABK &kp DK_LPRN &kp DK_LCBR &kp DK_LBRC     &kp ASTRK  &kp FSLH   &kp CARET  &trans    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │  #       │  .       │          │   │          │  {       │  [       │  ~       │          │
-            &sk LALT   &trans     &kp LS(N3) &kp DOT    &trans         &trans     &kp RA(N7) &kp RA(N8) &tilde     &trans
+        //│          │   ;      │  #       │  /       │   -      │   │  @       │  *       │  .       │  ~       │          │
+            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_AT  &kp DK_ASTR &kp DOT    &tilde     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &mo FNC     &mo SYM2       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
-		
-		/*
-		*	&kp N1 &kp N2 &kp N3 &kp N4 &kp N5		                                    &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-		*	&kp IT_LESS &kp IT_USD &kp IT_LPAR &kp IT_LBRC &kp IT_LBKT  &kp IT_EQL &kp IT_QUES &kp IT_SQUOT &kp IT_MINUS &kp IT_AST
-		*	&kp IT_GREAT &kp IT_PERC &kp IT_RPAR &kp IT_RBRC &kp IT_RBKT 	&kp IT_AT &kp IT_EXCL &kp IT_DQUOT &kp IT_PLUS &kp IT_FSLH
-		*												&mo FNC  &mo SYM2       &trans &trans
-		*/
 			>;
 		};
 
@@ -131,32 +124,78 @@
 		ext_layer {
 			label = "Mods";
 			bindings = <
-			&kp ESC  &kp C_PREV &kp C_PP  &kp C_NEXT  &kp C_PAUSE    	&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
-			&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
-			&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
-																		&trans &kp LCTRL    &kp ENTER  &mo FNC 
+
+		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│  F1      │  F2      │  F3      │  F4      │  F5      │   │  F6      │  F7      │  F8      │  F8      │  F10     │
+            &kp F1     &kp F2     &kp F3     &kp F4     &kp F5         &kp F6     &kp F7     &kp F8     &kp F9     &kp F10
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│   "      │  >       │  )       │  }       │  ]       │   │  F11     │  F12     │          │          │          │
+          &kp DK_DQUO &sk DK_RABK &sk DK_RPRN &sk DK_RCBR &kp DK_RBRC  &kp F11    &kp F12 &kp PRINTSCREEN  &trans   &trans
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │  :       │  #       │  \       │   _      │   │   @      │  *       │  .       │  ~       │          │
+            &trans   &kp DK_COLN &kp LS(N3) &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ATTR  &kp DOT    &tilde     &trans
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                             &trans     &kp LCTRL      &kp ENTER  &mo FNC 
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 			>;
+
+		/*	&kp ESC  &kp C_PREV &kp C_PP  &kp C_NEXT  &kp C_PAUSE    	&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
+		*	&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
+		*	&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
+		*/									      &trans &kp LCTRL    &kp ENTER  &mo FNC 
+		
 		};
 
 		// Function keys with modifiers
 		fnc_layer {
 			label = "FRow";
 			bindings = <
-			&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
-			&sk LALT &sk LGUI &sk LSHIFT &sk LCTRL &kp RALT     &kp F11 &kp F12  &kp PRINTSCREEN &trans &trans
-			&none &none &none &none &none				          &none &none &none &none &none 
-							  &none &none              &none &none  
+
+		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│  ESC     │  C_PREV  │  C_PP    │  C_NEXT  │  C_PAUSE │   │  PG_UP   │  HOME    │  UP      │  END     │  CAPS    │
+            &kp ESC  &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp C_PAUSE    &kp PG_UP  &kp HOME   &kp UP     &kp END    &kp CAPS
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│  LALT    │ L Win    │  LSHIFT  │  LCTRL   │  RALT    │   │  PG_DN   │  LEFT    │  DOWN    │  RIGHT   │  DEL     │
+            &sk LALT  &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 	  &kp PG_DN   &kp LEFT   &kp DOWN  &kp RIGHT   &kp DEL
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│   *Z     │   *X     │  *C      │  TAB     │   *V     │   │   *BSPC  │  BSPC    │          │          │          │
+            &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp TAB    &kp LC(V)    &kp LC(BSPC) &kp BSPC   &trans      &trans     &trans
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                             &trans     &kp LCTRL     &kp ENTER   &mo FNC 
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 			>;
+		};
+
+
+		/*	&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
+		*	&sk LALT &sk LGUI &sk LSHIFT &sk LCTRL &kp RALT     &kp F11 &kp F12  &kp PRINTSCREEN &trans &trans
+		*	&none &none &none &none &none				          &none &none &none &none &none 
+		*/					  &none &none              &none &none  
+		
 		};
 
 		// Low frequency symbols.
 		symbols_2_layer {
 			label = "Sym.2";
 			bindings = <
-			&kp IT_CARET &kp IT_UNDER &kp IT_PND &kp IT_EUR &kp IT_HASH         &none &none &none &none &none 
-			&kp IT_BKTK &kp IT_TILDE &kp IT_BSLH &kp IT_PIPE &kp IT_AND         &none &none &none &none &none
-			&none 			&none 			 &kp IT_SECT &kp IT_CCED &kp IT_DEG				  &none &none &none &none &none
-																	&none &none        	&none &none 
+
+		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
+            &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│  `       │  <       │  (       │  [       │  {       │   │  =       │  ?       │  &       │  /       │  *       │
+            &btick  &kp DK_LABK &kp DK_LPRN &kp DK_LBRC &kp DK_LCBR     &kp ASTRK  &kp FSLH   &kp CARET  &kp AMPS   &kp PIPE
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│   #      │   ;      │  #       │  /       │   -      │   │          │  {       │  .       │  ~       │          │
+            &kp DK_HASH &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &trans     &kp RA(N7) &kp DOT    &tilde     &trans
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                            &mo FNC     &mo SYM2       &trans     &trans
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+
+		/*	&kp IT_CARET &kp IT_UNDER &kp IT_PND &kp IT_EUR &kp IT_HASH         &none &none &none &none &none 
+		*	&kp IT_BKTK &kp IT_TILDE &kp IT_BSLH &kp IT_PIPE &kp IT_AND         &none &none &none &none &none
+		*	&none 			&none 			 &kp IT_SECT &kp IT_CCED &kp IT_DEG				  &none &none &none &none &none
+		*/															&none &none        	&none &none 
 			>;
 		};
 
@@ -175,10 +214,24 @@
 		settings_layer {
 				label = "Sett.";
 				bindings = <
-				&bootloader &none &none &bt BT_CLR &bt BT_SEL 0               &bt BT_SEL 3 &none &unstick &none &bootloader 
-				&none &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &none
-				&none &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &none
-										&none &none                         &none &none 
+
+		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│bootloader│          │          │ BT_CLR   │ BT_SEL 0 │   │ BT_SEL 3 │          │          │          │          │
+           &bootloader  &none      &none   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 3   &none    &unstick    &none    &bootloader
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│  `       │  <       │  (       │  [       │  {       │   │  =       │  ?       │  &       │  /       │  *       │
+            &btick  &kp DK_LABK &kp DK_LPRN &kp DK_LBRC &kp DK_LCBR     &kp ASTRK  &kp FSLH   &kp CARET  &kp AMPS   &kp PIPE
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│   #      │   ;       │  #       │  /       │   -      │   │         │  {       │  .       │  ~       │          │
+            &kp DK_HASH &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &trans     &kp RA(N7) &kp DOT    &tilde     &trans
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                            &mo FNC     &mo SYM2       &trans     &trans
+        //   
+
+		/*		&bootloader &none &none &bt BT_CLR &bt BT_SEL 0               &bt BT_SEL 3 &none &unstick &none &bootloader 
+		*		&none &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &none
+		*		&none &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &none
+		*/								&none &none                         &none &none 
 				>;
 		};
 	};
