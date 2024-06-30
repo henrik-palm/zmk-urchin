@@ -132,8 +132,8 @@
         //│   "      │  >       │  )       │  }       │  ]       │   │  F11     │  F12     │          │          │          │
           &kp DK_DQUO &sk DK_RABK &sk DK_RPRN &sk DK_RCBR &kp DK_RBRC  &kp F11    &kp F12 &kp PRINTSCREEN  &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  :       │  #       │  \       │   _      │   │   @      │  *       │  .       │  ~       │          │
-            &trans   &kp DK_COLN &kp DK_HASH &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ATTR &kp DOT  &kp DK_TILD  &trans
+        //│          │  :       │  #       │ Backslash│   _      │   │   @      │  *       │  .       │  ~       │          │
+            &trans   &kp DK_COLN &kp DK_HASH &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ATTR &kp DK_DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL      &kp ENTER  &mo FNC 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
