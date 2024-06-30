@@ -179,16 +179,16 @@
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
-            &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
+        //│          │          │          │          │          │   │          │          │          │          │          │
+            &none 		&none 	   &none 	  &none      &none	        &none      &none 	  &none 	 &none 		&none 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  `       │  <       │  (       │  [       │  {       │   │  =       │  ?       │  &       │  /       │  *       │
-            &btick  &kp DK_LABK &kp DK_LPRN &kp DK_LBRC &kp DK_LCBR     &kp ASTRK  &kp FSLH   &kp CARET  &kp AMPS   &kp PIPE
+        //│          │   ^      │   £      │   €      │          │   │          │          │          │          │          │
+            &none 		&none 	   &none 	  &none      &none	        &none      &none 	  &none 	 &none 		&none 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│   #      │   ;      │  #       │  /       │   -      │   │          │  {       │  .       │  ~       │          │
-            &kp DK_HASH &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &trans     &kp RA(N7) &kp DOT &pk DK_TILD  &trans
+        //│          │          │          │          │          │   │          │          │          │          │          │
+            &none 		&none 	   &none 	  &none      &none	        &none      &none 	  &none 	 &none 		&none 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &mo FNC     &mo SYM2       &trans     &trans
+                                              &none 	 &none			&none 	   &none 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 
 		//	&kp IT_CARET &kp IT_UNDER &kp IT_PND &kp IT_EUR &kp IT_HASH         &none &none &none &none &none 
@@ -198,39 +198,28 @@
 			>;
 		};
 
-		// Used to type regional accents.
-		accent_layer {
-			label = "Accent";
-			bindings = <
-			&none &none &none &kp IT_CEGR &none                         &none &none &none &none &none 
-			&kp IT_AGRV &kp IT_IGRV &kp IT_OGRV &kp IT_EGRV &kp IT_EACU &none &none &none &none &none
-			&none &none &none &kp IT_UGRV &none                         &none &none &none &none &none
-									&none &none                         &none &none 
-			>;
-		};
-
 		// Used to change the keyboard's settings.
 		settings_layer {
 				label = "Sett.";
 				bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│bootloader│          │          │ BT_CLR   │ BT_SEL 0 │   │ BT_SEL 3 │          │          │          │          │
-           &bootloader  &none      &none   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 3   &none    &unstick    &none    &bootloader
+        //│bootloader│          │          │ BT_CLR   │ BT_SEL 0 │   │ BT_SEL 3 │          │          │          │bootloader│          │
+           &bootloader  &none      &none   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 3  &none      &none	     &none    &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  `       │  <       │  (       │  [       │  {       │   │  =       │  ?       │  &       │  /       │  *       │
-            &btick  &kp DK_LABK &kp DK_LPRN &kp DK_LBRC &kp DK_LCBR     &kp ASTRK  &kp FSLH   &kp CARET  &kp AMPS   &kp PIPE
+        //│          │          │          │          │ BT_SEL 1 │   │ BT_SEL 4 │          │          │          │          │
+            &none 		&none 	   &none 	  &none   &bt BT_SEL 1	 &bt BT_SEL 4  &none 	  &none 	 &none 		&none 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│   #      │   ;       │  #       │  /       │   -      │   │         │  {       │  .       │  ~       │          │
-            &kp DK_HASH &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &trans     &kp RA(N7) &kp DOT    &tilde     &trans
+        //│          │          │          │          │ BT_SEL 2 │   │ BT_SEL 5 │          │          │          │          │
+             &none 		&none 	   &none 	  &none   &bt BT_SEL 2	 &bt BT_SEL 5  &none 	  &none 	 &none 		&none 
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &mo FNC     &mo SYM2       &trans     &trans
-        //   
+                                              &none 	 &none			&none 	   &none 
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 
-		/*		&bootloader &none &none &bt BT_CLR &bt BT_SEL 0               &bt BT_SEL 3 &none &unstick &none &bootloader 
-		*		&none &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &none
-		*		&none &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &none
-		*/								&none &none                         &none &none 
+		//		&bootloader &none &none &bt BT_CLR &bt BT_SEL 0               &bt BT_SEL 3 &none &unstick &none &bootloader 
+		//		&none &none &none &none      &bt BT_SEL 1 						  &bt BT_SEL 4 &none &none &none &none
+		//		&none &none &none &none      &bt BT_SEL 2               &bt BT_SEL 5 &none &none &none &none
+		//								&none &none                         &none &none 
 				>;
 		};
 	};
