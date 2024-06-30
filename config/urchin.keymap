@@ -113,7 +113,7 @@
             &btick  &kp DK_LABK &kp DK_LPRN &kp DK_LCBR &kp DK_LBRC     &kp ASTRK  &kp FSLH   &kp CARET  &trans    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │   ;      │  #       │  /       │   -      │   │  @       │  *       │  .       │  ~       │          │
-            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_AT  &kp DK_ASTR &kp DOT    &tilde     &trans
+            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &mo FNC     &mo SYM2       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -133,7 +133,7 @@
           &kp DK_DQUO &sk DK_RABK &sk DK_RPRN &sk DK_RCBR &kp DK_RBRC  &kp F11    &kp F12 &kp PRINTSCREEN  &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  :       │  #       │  \       │   _      │   │   @      │  *       │  .       │  ~       │          │
-            &trans   &kp DK_COLN &kp DK_HASH &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ATTR  &kp DOT &kp tilde    &trans
+            &trans   &kp DK_COLN &kp DK_HASH &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ATTR &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL      &kp ENTER  &mo FNC 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -187,7 +187,7 @@
             &btick  &kp DK_LABK &kp DK_LPRN &kp DK_LBRC &kp DK_LCBR     &kp ASTRK  &kp FSLH   &kp CARET  &kp AMPS   &kp PIPE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   #      │   ;      │  #       │  /       │   -      │   │          │  {       │  .       │  ~       │          │
-            &kp DK_HASH &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &trans     &kp RA(N7) &kp DOT    &tilde     &trans
+            &kp DK_HASH &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &trans     &kp RA(N7) &kp DOT &pk DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &mo FNC     &mo SYM2       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
