@@ -133,7 +133,7 @@
           &kp DK_DQUO &sk DK_RABK &sk DK_RPRN &sk DK_RCBR &kp DK_RBRC  &kp F11    &kp F12 &kp PRINTSCREEN  &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  :       │  #       │  \       │   _      │   │   @      │  *       │  .       │  ~       │          │
-            &trans   &kp DK_COLN &kp LS(N3) &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ATTR  &kp DOT    &tilde     &trans
+            &trans   &kp DK_COLN &kp DK_HASH &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ATTR  &kp DOT &kp tilde    &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL      &kp ENTER  &mo FNC 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
