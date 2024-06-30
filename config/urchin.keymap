@@ -132,7 +132,7 @@
         //│   "      │  >       │  )       │  }       │  ]       │   │  F11     │  F12     │          │          │          │
           &kp DK_DQUO &sk DK_RABK &sk DK_RPRN &sk DK_RCBR &kp DK_RBRC  &kp F11    &kp F12 &kp PRINTSCREEN  &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  :       │  #       │ Backslash│   _      │   │   @      │  *       │  .       │  ~       │          │
+        //│          │  :       │  #       │  \       │   _      │   │   @      │  *       │  .       │  ~       │          │
             &trans   &kp DK_COLN &kp DK_HASH &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL      &kp ENTER  &mo FNC 
@@ -169,9 +169,7 @@
 		//	&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
 		//	&sk LALT &sk LGUI &sk LSHIFT &sk LCTRL &kp RALT     &kp F11 &kp F12  &kp PRINTSCREEN &trans &trans
 		//	&none &none &none &none &none				          &none &none &none &none &none 
-		//					  &none &none              &none &none  
-		
-		};
+		//					  &none &none              &none &none
 
 		// Low frequency symbols.
 		symbols_2_layer {
