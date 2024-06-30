@@ -133,13 +133,13 @@
           &kp DK_DQUO &sk DK_RABK &sk DK_RPRN &sk DK_RCBR &kp DK_RBRC  &kp F11    &kp F12 &kp PRINTSCREEN  &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  :       │  #       │ Backslash│   _      │   │   @      │  *       │  .       │  ~       │          │
-            &trans   &kp DK_COLN &kp DK_HASH &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ATTR &kp DK_DOT  &kp DK_TILD  &trans
+            &trans   &kp DK_COLN &kp DK_HASH &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL      &kp ENTER  &mo FNC 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 			>;
 
-		/*	&kp ESC  &kp C_PREV &kp C_PP  &kp C_NEXT  &kp C_PAUSE    	&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
+	   /*	&kp ESC  &kp C_PREV &kp C_PP  &kp C_NEXT  &kp C_PAUSE    	&kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
 		*	&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
 		*	&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
 		*/									      &trans &kp LCTRL    &kp ENTER  &mo FNC 
