@@ -51,6 +51,24 @@
 			#binding-cells = <0>;
 			bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
 		};
+		tilde: tilde {
+            label = "macro_tilde";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(RBKT) &kp RA(RBKT)>;
+        };
+        btick: btick {
+            label = "macro_btick";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PLUS &kp PLUS>;
+        };
+        hat: hat {
+            label = "macro_hat";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RBRC &kp RBRC>;
+        };
 	};
 
 	combos {
@@ -202,8 +220,8 @@
 				bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│bootloader│          │          │ BT_CLR   │ BT_SEL 0 │   │ BT_SEL 3 │          │          │          │bootloader│          │
-           &bootloader  &none      &none   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 3  &none      &none	     &none    &bootloader
+        //│bootloader│          │          │ BT_CLR   │ BT_SEL 0 │   │ BT_SEL 3 │          │ Unstick  │          │bootloader│          │
+           &bootloader  &none      &none   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 3  &none     &unstick    &none    &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │ BT_SEL 1 │   │ BT_SEL 4 │          │          │          │          │
             &none 		&none 	   &none 	  &none   &bt BT_SEL 1	 &bt BT_SEL 4  &none 	  &none 	 &none 		&none 
