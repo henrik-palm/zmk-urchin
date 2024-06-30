@@ -5,11 +5,3 @@
  */
 
 #include "urchin.dtsi"
-
-&kscan0 {
-    diode-direction = "col2row";
-    col-gpios = <&pro_micro 99 (GPIO_ACTIVE_HIGH)> // DUMMY
-    ;
-    row-gpios = <&pro_micro 99 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // DUMMY
-    ;
-};
