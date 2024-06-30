@@ -6,10 +6,6 @@
  * https://github.com/qmk/qmk_firmware/tree/master/quantum/keymap_extras
 */
 
-#pragma once
-#include "keycodes.h"
-// clang-format off
-
 // Aliases
 /*
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
