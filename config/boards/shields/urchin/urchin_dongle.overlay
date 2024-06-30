@@ -5,3 +5,11 @@
  */
 
 #include "urchin.dtsi"
+
+&kscan0 {
+    diode-direction = "col2row";
+    col-gpios
+    ;
+    row-gpios
+    ;
+};
