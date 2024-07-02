@@ -4,7 +4,7 @@
 if SHIELD_URCHIN_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "urchin"
+    default "Palm"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
