@@ -138,9 +138,9 @@
 			>;
 		};
 
-		// Main modifiers and arrow keys
-		ext_layer {
-			label = "Mods";
+		// Function keys with modifiers
+		fnc_layer {
+			label = "FRow";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -163,9 +163,9 @@
 		//	&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
 		//									      &trans &kp LCTRL    &kp ENTER  &mo FNC 
 
-		// Function keys with modifiers
-		fnc_layer {
-			label = "FRow";
+		// Main modifiers and arrow keys
+		ext_layer {
+			label = "Mods";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
