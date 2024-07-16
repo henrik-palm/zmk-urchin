@@ -148,7 +148,7 @@
         //│   *Z     │   *X     │  *C      │  TAB     │   *V     │   │   *BSPC  │  BSPC    │          │          │          │
             &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp TAB    &kp LC(V)    &kp LC(BSPC) &kp BSPC   &trans      &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp LCTRL     &kp ENTER   &mo FNC 
+                                             &trans     &kp LCTRL     &kp ENTER   &mo W_FNC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 			>;
 		};
@@ -167,7 +167,7 @@
         //│          │   ;      │  #       │  /       │   -      │   │  @       │  *       │  .       │  ~       │          │
             &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &mo FNC     &mo SYM2       &trans     &trans
+                                            &mo W_FNC  &mo W_SYM2       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 			>;
 		};
@@ -187,7 +187,7 @@
         //│          │  :       │  #       │  \       │   _      │   │   @      │  *       │  .       │  ~       │          │
             &trans   &kp DK_COLN &kp DK_HASH &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp LCTRL      &kp ENTER  &mo FNC 
+                                             &trans     &kp LCTRL      &kp ENTER  &mo W_FNC 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 			>;
 		};
