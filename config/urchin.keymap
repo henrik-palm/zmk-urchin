@@ -247,7 +247,7 @@
             &sk LALT  &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 	  &kp PG_DN   &kp LEFT   &kp DOWN  &kp RIGHT   &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   *Z     │   *X     │  *C      │  TAB     │   *V     │   │   *BSPC  │  BSPC    │          │          │          │
-            &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp TAB    &kp LC(V)    &kp LA(BSPC) &kp BSPC   &trans      &trans     &trans
+         &kp LGUI(Z) &kp LGUI(X) &kp LGUI(C) &kp TAB   &kp LGUI(V)    &kp LGUI(BSPC) &kp BSPC   &trans      &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL     &kp ENTER   &mo M_FNC 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
