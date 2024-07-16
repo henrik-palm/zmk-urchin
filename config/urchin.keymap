@@ -119,7 +119,7 @@
 
 		// Base windows alpha layer
 		default_layer {
-			label = "Win Base";
+			label = "WinBase";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P 
@@ -135,7 +135,7 @@
 
 		// Main modifiers and arrow keys
 		w_ext_layer {
-			label = "Win Mods";
+			label = "WinMods";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -155,7 +155,7 @@
 
 		// Numbers and high frequency symbols
 		w_sym_layer {
-			label = "Win Sym";
+			label = "WinSym";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
@@ -174,7 +174,7 @@
 
 		// Function keys with modifiers
 		w_fnc_layer {
-			label = "Win FRow";
+			label = "WinFRow";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -194,7 +194,7 @@
 
 		// Low frequency symbols.
 		w_symbols_2_layer {
-			label = "Win Sym2";
+			label = "WinSym2";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -236,7 +236,7 @@
 
 		// Main modifiers and arrow keys
 		m_ext_layer {
-			label = "Mac Mods";
+			label = "MacMods";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -256,7 +256,7 @@
 
 		// Numbers and high frequency symbols
 		m_sym_layer {
-			label = "Mac Sym";
+			label = "MacSym";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
@@ -275,7 +275,7 @@
 
 		// Function keys with modifiers
 		m_fnc_layer {
-			label = "Mac FRow";
+			label = "MacFRow";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -295,7 +295,7 @@
 
 		// Low frequency symbols.
 		m_symbols_2_layer {
-			label = "Mac Sym2";
+			label = "MacSym2";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -322,7 +322,7 @@
 
 		// Used to change the keyboard's settings.
 		settings_layer {
-				label = "Sett.";
+				label = "Settings";
 				bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
