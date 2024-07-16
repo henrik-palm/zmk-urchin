@@ -155,7 +155,7 @@
 
 		// Numbers and high frequency symbols
 		w_sym_layer {
-			label = "Win Sym.";
+			label = "Win Sym";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
@@ -194,7 +194,7 @@
 
 		// Low frequency symbols.
 		w_symbols_2_layer {
-			label = "Win Sym.2";
+			label = "Win Sym2";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -247,7 +247,7 @@
             &sk LALT  &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 	  &kp PG_DN   &kp LEFT   &kp DOWN  &kp RIGHT   &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   *Z     │   *X     │  *C      │  TAB     │   *V     │   │   *BSPC  │  BSPC    │          │          │          │
-            &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp TAB    &kp LC(V)    &kp LC(BSPC) &kp BSPC   &trans      &trans     &trans
+            &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp TAB    &kp LC(V)    &kp LA(BSPC) &kp BSPC   &trans      &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL     &kp ENTER   &mo M_FNC 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -256,7 +256,7 @@
 
 		// Numbers and high frequency symbols
 		m_sym_layer {
-			label = "Mac Sym.";
+			label = "Mac Sym";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
@@ -295,7 +295,7 @@
 
 		// Low frequency symbols.
 		m_symbols_2_layer {
-			label = "Mac Sym.2";
+			label = "Mac Sym2";
 			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
