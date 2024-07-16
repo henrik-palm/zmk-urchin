@@ -235,7 +235,7 @@
 		};
 
 		// Main modifiers and arrow keys
-		w_ext_layer {
+		m_ext_layer {
 			label = "Mac Mods";
 			bindings = <
 
@@ -255,7 +255,7 @@
 		};
 
 		// Numbers and high frequency symbols
-		w_sym_layer {
+		m_sym_layer {
 			label = "Mac Sym.";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -274,7 +274,7 @@
 		};
 
 		// Function keys with modifiers
-		w_fnc_layer {
+		m_fnc_layer {
 			label = "Mac FRow";
 			bindings = <
 
@@ -294,7 +294,7 @@
 		};
 
 		// Low frequency symbols.
-		w_symbols_2_layer {
+		m_symbols_2_layer {
 			label = "Mac Sym.2";
 			bindings = <
 
