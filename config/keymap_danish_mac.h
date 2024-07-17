@@ -74,7 +74,7 @@
  */
 
 #define DK_MAC_BSLS LS(RA(DK_7))    // \ 
-#define DK_MAC_LCBR LS(RA(DK_8))    // {
+#define DK_MAC_LCBR LS(RA(N8))    // {
 #define DK_MAC_RCBR LS(RA(DK_9))    // }
 
 
