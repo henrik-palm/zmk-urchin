@@ -8,8 +8,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-#include "keymap_danish_mac.h"
 #include "keymap_danish_windows.h"
+#include "keymap_danish_mac.h"
 
 // Layer definitions
 #define WIN_BASE 0
@@ -263,7 +263,7 @@
           &btick  &kp DK_LABK &kp DK_LPRN &kp DK_MAC_LCBR &kp DK_LBRC &kp DK_EQL &kp DK_QUES &kp CARET   &trans    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │   ;      │  #       │  /       │   -      │   │  @       │  *       │  .       │  ~       │          │
-            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
+            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_MAC_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &mo M_FNC  &mo M_SYM2       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
