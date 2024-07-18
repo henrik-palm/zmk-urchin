@@ -73,8 +73,8 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 
-#define DK_MAC_BSLS LS(RA(DK_7))    // \ 
-#define DKMAC_LCBR LS(RA(N8))    // {
+#define DK_MAC_BSLS LS(RA(DK_7))    // backspace
+#define DK_MAC_LCBR LS(RA(N8))    // {
 #define DK_MAC_RCBR LS(RA(DK_9))    // }
 
 
