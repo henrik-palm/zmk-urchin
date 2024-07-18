@@ -298,7 +298,7 @@
             &none 		&none 	   &none 	  &none      &none	        &none      &none 	  &none 	 &none 		&none 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ^       │   $      │   £      │   €      │   °      │   │          │          │          │          │          │
-            &none &kp DK_MAC_DLR &kp DK_MAC_PND &kp DK_EURO &mac_degree	&none      &none 	  &none 	 &none 		&none 
+            &none &kp DK_MAC_DLR &kp DK_MAC_PND &kp DK_MAC_EURO &mac_degree	&none      &none 	  &none 	 &none 		&none 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             &none 		&none 	   &none 	  &none      &none	        &none      &none 	  &none 	 &none 		&none 
