@@ -120,7 +120,7 @@
 #define DK_PND  RA(DK_3)    // £
 #define DK_DLR  RA(DK_4)    // $
 #define DK_EURO RA(DK_5)    // €
-#define DK_LCBR RA(DK_7)    // {
+#define DK_LCBR LS(RA(DK_7))    // {
 #define DK_LBRC RA(DK_8)    // [
 #define DK_RBRC RA(DK_9)    // ]
 #define DK_RCBR RA(DK_0)    // }
