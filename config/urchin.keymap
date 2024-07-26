@@ -145,8 +145,8 @@
         //│  LALT    │ L Win    │  LSHIFT  │  LCTRL   │  RALT    │   │  PG_DN   │  LEFT    │  DOWN    │  RIGHT   │  DEL     │
             &sk LALT  &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 	  &kp PG_DN   &kp LEFT   &kp DOWN  &kp RIGHT   &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│   *Z     │   *X     │  *C      │  TAB     │   *V     │   │   *BSPC  │  BSPC    │          │          │          │
-            &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp TAB    &kp LC(V)    &kp LC(BSPC) &kp BSPC   &trans      &trans     &trans
+        //│   *Z     │   *X     │  *C      │  TAB     │   *V     │   │   *BSPC  │  BSPC    │Desk Left │Desk right│          │
+            &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp TAB    &kp LC(V)    &kp LC(BSPC) &kp BSPC &kp LC(LG(LEFT)) &kp LC(LG(RIGHT)) &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL     &kp ENTER   &mo W_FNC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
