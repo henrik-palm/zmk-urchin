@@ -67,7 +67,7 @@
             label = "macro_btick";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp PLUS &kp PLUS>;
+            bindings = <&kp DK_ACUT &kp DK_ACUT>;
         };
         hat: hat {
             label = "macro_hat";
