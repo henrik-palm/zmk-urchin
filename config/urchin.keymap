@@ -73,7 +73,7 @@
             label = "macro_hat";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RBRC &kp RBRC>;
+            bindings = <&kp RBRC>;
         };
 		win_degree: win_degree {
             label = "macro_win_degree";
