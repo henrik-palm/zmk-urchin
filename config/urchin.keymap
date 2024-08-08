@@ -161,8 +161,8 @@
         //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  `       │  <       │  (       │  {       │  [       │   │  =       │  ?       │  &       │          │          │
-            &btick  &kp DK_LABK &kp DK_LPRN &kp DK_LCBR &kp DK_LBRC   &kp DK_EQL &kp DK_QUES &kp CARET &kp DK_PLUS  &trans
+        //│   '      │  <       │  (       │  {       │  [       │   │  =       │  ?       │  &       │          │          │
+           &kp DK_QUOT &kp DK_LABK &kp DK_LPRN &kp DK_LCBR &kp DK_LBRC   &kp DK_EQL &kp DK_QUES &kp CARET &kp DK_PLUS  &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │   ;      │  #       │  /       │   -      │   │  @       │  *       │  .       │  ~       │          │
             &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
@@ -259,8 +259,8 @@
         //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  `       │  <       │  (       │  {       │  [       │   │  =       │  ?       │  &       │          │          │
-          &btick  &kp DK_LABK &kp DK_LPRN &kp DK_MAC_LCBR &kp DK_LBRC &kp DK_EQL &kp DK_QUES &kp CARET &kp DK_PLUS    &trans
+        //│  '       │  <       │  (       │  {       │  [       │   │  =       │  ?       │  &       │          │          │
+           &kp DK_QUOT  &kp DK_LABK &kp DK_LPRN &kp DK_MAC_LCBR &kp DK_LBRC &kp DK_EQL &kp DK_QUES &kp CARET &kp DK_PLUS    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │   ;      │  #       │  /       │   -      │   │  @       │  *       │  .       │  ~       │          │
             &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_MAC_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
