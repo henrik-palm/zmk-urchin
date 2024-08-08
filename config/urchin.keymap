@@ -161,11 +161,11 @@
         //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│   '      │  <       │  (       │  {       │  [       │   │  =       │  ?       │  &       │          │          │
-           &kp DK_QUOT &kp DK_LABK &kp DK_LPRN &kp DK_LCBR &kp DK_LBRC   &kp DK_EQL &kp DK_QUES &kp CARET &kp DK_PLUS  &trans
+        //│   '      │  <       │  (       │  {       │  [       │   │  =       │   *      │  &       │          │          │
+           &kp DK_QUOT &kp DK_LABK &kp DK_LPRN &kp DK_LCBR &kp DK_LBRC   &kp DK_EQL &kp DK_ASTR &kp CARET &kp DK_PLUS  &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │   ;      │  #       │  /       │   -      │   │  @       │  *       │  .       │  ~       │          │
-            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
+        //│          │   ;      │  #       │  /       │   -      │   │  @       │   ?      │  .       │  ~       │          │
+            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_AT  &kp DK_QUES &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &mo W_FNC  &mo W_SYM2       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -183,8 +183,8 @@
         //│   "      │  >       │  )       │  }       │  ]       │   │  F11     │  F12     │          │          │          │
           &kp DK_DQUO &sk DK_RABK &sk DK_RPRN &sk DK_RCBR &kp DK_RBRC  &kp F11    &kp F12 &kp PRINTSCREEN  &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  :       │  |       │  \       │   _      │   │   @      │  *       │  .       │  ~       │          │
-            &trans &kp DK_COLN &kp DK_PIPE &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
+        //│          │  :       │  |       │  \       │   _      │   │   @      │  !       │  .       │  ~       │          │
+            &trans &kp DK_COLN &kp DK_PIPE &kp DK_BSLS &kp DK_UNDS   &kp DK_AT  &kp DK_EXLM &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL      &kp ENTER  &mo W_FNC 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -259,11 +259,11 @@
         //│  1       │  2       │  3       │  4       │  5       │   │  6       │  7       │  8       │  9       │  0       │
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  '       │  <       │  (       │  {       │  [       │   │  =       │  ?       │  &       │          │          │
-           &kp DK_QUOT  &kp DK_LABK &kp DK_LPRN &kp DK_MAC_LCBR &kp DK_LBRC &kp DK_EQL &kp DK_QUES &kp CARET &kp DK_PLUS    &trans
+        //│  '       │  <       │  (       │  {       │  [       │   │  =       │  *       │  &       │          │          │
+           &kp DK_QUOT  &kp DK_LABK &kp DK_LPRN &kp DK_MAC_LCBR &kp DK_LBRC &kp DK_EQL &kp DK_ASTR &kp CARET &kp DK_PLUS    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │   ;      │  #       │  /       │   -      │   │  @       │  *       │  .       │  ~       │          │
-            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_MAC_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
+        //│          │   ;      │  #       │  /       │   -      │   │  @       │  ?       │  .       │  ~       │          │
+            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_MAC_AT  &kp DK_QUES &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &mo M_FNC  &mo M_SYM2       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -281,8 +281,8 @@
         //│   "      │  >       │  )       │  }       │  ]       │   │  F11     │  F12     │          │          │          │
           &kp DK_DQUO &sk DK_RABK &sk DK_RPRN &sk DK_MAC_RCBR &kp DK_RBRC  &kp F11    &kp F12 &kp PRINTSCREEN  &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  :       │  |       │  \       │   _      │   │   @      │  *       │  .       │  ~       │          │
-         &trans &kp DK_COLN &kp DK_MAC_PIPE &kp DK_MAC_BSLS &kp DK_UNDS  &kp DK_MAC_AT  &kp DK_ASTR &kp DOT  &kp DK_TILD  &trans
+        //│          │  :       │  |       │  \       │   _      │   │   @      │  !       │  .       │  ~       │          │
+         &trans &kp DK_COLN &kp DK_MAC_PIPE &kp DK_MAC_BSLS &kp DK_UNDS &kp DK_MAC_AT &kp DK_EXLM &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp LCTRL      &kp ENTER  &mo M_FNC 
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
