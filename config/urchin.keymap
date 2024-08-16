@@ -24,9 +24,9 @@
 #define M_FNC 8
 #define M_SYM2 9
 // -----------------
-#define SETTINGS 10
-#define GAMING 11
-#define GAMING_NUMBERS 12
+#define GAMING 10
+#define GAMING_NUMBERS 11
+#define SETTINGS 12
 
 &sk {
 	// don't release mods on other mods presses
@@ -316,27 +316,6 @@
 		//---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
-		// Used to change the keyboard's settings.
-		settings_layer {
-				label = "Settings";
-				bindings = <
-
-		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│bootloader│          │          │ BT_CLR   │ BT_SEL 0 │   │ BT_SEL 3 │          │ Unstick  │          │bootloader│          │
-           &bootloader  &none      &none   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 3  &none     &unstick    &none    &bootloader
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │ BT_SEL 1 │   │ BT_SEL 4 │          │          │          │          │
-            &none 		&none 	   &none 	  &none   &bt BT_SEL 1	 &bt BT_SEL 4  &none 	  &none 	 &none 		&none 
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │ BT_SEL 2 │   │ BT_SEL 5 │          │          │          │          │
-             &none 		&none 	   &none 	  &none   &bt BT_SEL 2	 &bt BT_SEL 5  &none 	  &none 	 &none 		&to GAMING
-        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                              &none 	 &none		 &to WIN_BASE &to MAC_BASE 
-        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
-				>;
-		};
-
         // Used in games with better positioning of asdw.
 		gaming_layer {
 				label = "gaming";
@@ -370,5 +349,26 @@
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 				>;
 		};
+
+		// Used to change the keyboard's settings.
+		settings_layer {
+				label = "Settings";
+				bindings = <
+
+		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│bootloader│          │          │ BT_CLR   │ BT_SEL 0 │   │ BT_SEL 3 │          │ Unstick  │          │bootloader│          
+           &bootloader  &none      &none   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 3  &none     &unstick    &none    &bootloader
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │          │          │          │ BT_SEL 1 │   │ BT_SEL 4 │          │          │          │          │
+            &none 		&none 	   &none 	  &none   &bt BT_SEL 1	 &bt BT_SEL 4  &none 	  &none 	 &none 		&none 
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│          │          │          │          │ BT_SEL 2 │   │ BT_SEL 5 │          │          │          │          │
+             &none 		&none 	   &none 	  &none   &bt BT_SEL 2	 &bt BT_SEL 5  &none 	  &none 	 &none 		&to GAMING
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                              &none 	 &none		 &to WIN_BASE &to MAC_BASE 
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+				>;
+		};
+
 	};
 };
