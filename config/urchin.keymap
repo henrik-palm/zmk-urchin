@@ -264,8 +264,8 @@
         //│  '       │  <       │  (       │  {       │  [       │   │  =       │  *       │  &       │          │          │
            &kp DK_QUOT  &kp DK_LABK &kp DK_LPRN &kp DK_MAC_LCBR &kp DK_LBRC &kp DK_EQL &kp DK_ASTR &kp CARET &kp DK_PLUS    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │   ;      │  #       │  /       │   -      │   │  @       │  ?       │  .       │  ~       │          │
-            &trans   &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_MAC_AT  &kp DK_QUES &kp DOT  &kp DK_TILD  &trans
+        //│  %       │   ;      │  #       │  /       │   -      │   │  @       │  ?       │  .       │  ~       │          │
+           &kp DK_PERC &kp DK_SCLN &kp DK_HASH &kp DK_SLSH &kp DK_MINS  &kp DK_MAC_AT  &kp DK_QUES &kp DOT  &kp DK_TILD  &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &mo M_FNC  &mo M_SYM2       &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
