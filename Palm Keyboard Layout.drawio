@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
   <diagram id="aUj_EmcdNalTghPSjb8S" name="Page-1">
-    <mxGraphModel dx="1226" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5165" dy="2778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,7 +117,7 @@
         <mxCell id="qOO70KsoDbuKheBEqoZG-246" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=#3399FF;strokeColor=#006294;" parent="1" source="qOO70KsoDbuKheBEqoZG-34" target="qOO70KsoDbuKheBEqoZG-145" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zje5LtQH6m6CCSwOplJE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#007AB8;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="qOO70KsoDbuKheBEqoZG-34">
+        <mxCell id="zje5LtQH6m6CCSwOplJE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#007AB8;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="qOO70KsoDbuKheBEqoZG-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="640" as="targetPoint" />
             <mxPoint x="560" y="270" as="sourcePoint" />
@@ -385,7 +385,7 @@
           <mxGeometry x="560" y="310" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qOO70KsoDbuKheBEqoZG-151" value="&lt;div&gt;&lt;b&gt;Sticky Modifiers&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;i&gt;From left to right:&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;i&gt;ALT, OS, SHIFT, CTRL, RALT&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontFamily=Verdana;fontSize=13;fontColor=#FF8000;" parent="1" vertex="1">
-          <mxGeometry x="-79" y="418.5" width="110" height="90" as="geometry" />
+          <mxGeometry x="10" y="443.5" width="110" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qOO70KsoDbuKheBEqoZG-153" value="Esc" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="151" y="428.5" width="40" height="40" as="geometry" />
@@ -490,9 +490,7 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="106" y="640" as="sourcePoint" />
             <mxPoint x="431" y="530" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="101" y="480" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qOO70KsoDbuKheBEqoZG-196" value="BL" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontFamily=Verdana;fontStyle=1;fontColor=#AFB9C7;fillColor=#383E47;rounded=1;" parent="1" vertex="1">
