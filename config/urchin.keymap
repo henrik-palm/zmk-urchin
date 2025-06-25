@@ -141,10 +141,10 @@
 			label = "WinMods";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  ESC     │  C_PREV  │  C_PP    │  C_NEXT  │Mute Teams│   │  VOL_UP   │  HOME    │  UP      │  END     │  CAPS    │
+        //│  ESC     │  C_PREV  │  C_PP    │  C_NEXT  │Mute Teams│   │  VOL_UP  │  HOME    │  UP      │  END     │  CAPS    │
             &kp ESC  &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp LC(LS(M)) &kp C_VOL_UP  &kp HOME   &kp UP     &kp END    &kp CAPS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  LALT    │ L Win    │  LSHIFT  │  LCTRL   │  RALT    │   │  VOL_DN   │  LEFT    │  DOWN    │  RIGHT   │  DEL     │
+        //│  LALT    │ L Win    │  LSHIFT  │  LCTRL   │  RALT    │   │  VOL_DN  │  LEFT    │  DOWN    │  RIGHT   │  DEL     │
             &sk LALT  &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 	  &kp C_VOL_DN   &kp LEFT   &kp DOWN  &kp RIGHT   &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   *Z     │   *X     │  *C      │  TAB     │   *V     │   │   *BSPC  │  BSPC    │Desk Left │Desk right│          │
@@ -198,8 +198,8 @@
 			label = "WinSym2";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │          │          │          │          │   │          │          │          │          │          │
-            &none 		&none 	   &none 	  &none      &none	        &none      &none 	  &none 	 &none 		&none 
+        //│          │          │          │          │          │   │          │          │          │          │   CAPS   │
+            &none 		&none 	   &none 	  &none      &none	        &none      &none 	  &none 	 &none 	   &kp CAPS 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ^       │   $      │   £      │   €      │   °      │   │          │          │          │          │          │
             &hat 	 &kp DK_DLR  &kp DK_PND   &kp DK_EURO &win_degree	    &none      &none 	  &none 	 &none 		&none 
@@ -239,10 +239,10 @@
 			label = "M Mods";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  ESC     │  C_PREV  │  C_PP    │  C_NEXT  │Mute Teams│   │  VOL_UP   │  HOME    │  UP      │  END     │  CAPS    │
-            &kp ESC  &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp LG(LS(M)) &kp C_VOL_UP  &kp HOME   &kp UP     &kp END    &kp CAPS
+        //│  ESC     │  C_PREV  │  C_PP    │  C_NEXT  │Mute Teams│   │  VOL_UP  │  HOME    │  UP      │  END     │          │
+            &kp ESC  &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp LG(LS(M)) &kp C_VOL_UP  &kp HOME   &kp UP     &kp END    &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  LALT    │ L Win    │  LSHIFT  │  LCTRL   │  RALT    │   │  VOL_DN   │  LEFT    │  DOWN    │  RIGHT   │  DEL     │
+        //│  LALT    │ L Win    │  LSHIFT  │  LCTRL   │  RALT    │   │  VOL_DN  │  LEFT    │  DOWN    │  RIGHT   │  DEL     │
             &sk LALT  &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 	  &kp C_VOL_DN   &kp LEFT   &kp DOWN  &kp RIGHT   &kp DEL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│   *Z     │   *X     │  *C      │  TAB     │   *V     │   │   *BSPC  │  BSPC    │Desk Left │Desk right│          │
@@ -296,8 +296,8 @@
 			label = "M Sym2";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │          │          │          │          │   │          │          │          │          │          │
-            &none 		&none 	   &none 	  &none      &none	        &none      &none 	  &none 	 &none 		&none 
+        //│          │          │          │          │          │   │          │          │          │          │   CAPS   │
+            &none 		&none 	   &none 	  &none      &none	        &none      &none 	  &none 	 &none 	   &kp CAPS 
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ^       │   $      │   £      │   €      │   °      │   │          │          │          │          │          │
             &none &kp DK_MAC_DLR &kp DK_MAC_PND &kp DK_MAC_EURO &mac_degree	&none      &none 	  &none 	 &none 		&none 
