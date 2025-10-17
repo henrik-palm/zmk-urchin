@@ -44,7 +44,7 @@
 #define DK_O    O      // O
 #define DK_P    P      // P
 #define DK_AA   LBKT   // Å
-#define DK_DIAE SLASH  // ¨ (dead)
+#define DK_DIAE RBKT   // ¨ (dead)
 #define DK_A    A      // A
 #define DK_S    S      // S
 #define DK_D    D      // D
