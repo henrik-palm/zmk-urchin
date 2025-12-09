@@ -24,9 +24,15 @@
 #define M_FNC 8
 #define M_SYM2 9
 // -----------------
-#define GAMING 10
-#define GAMING_NUMBERS 11
-#define SETTINGS 12
+#define LINUX_BASE 10
+#define L_EXT 11
+#define L_SYM 12
+#define L_FNC 13
+#define L_SYM2 14
+// -----------------
+#define GAMING 15
+#define GAMING_NUMBERS 16
+#define SETTINGS 17
 
 &sk {
 	// don't release mods on other mods presses
