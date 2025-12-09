@@ -9,6 +9,8 @@
 / {
     kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
+        row-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
+        col-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
     };
 };
 
