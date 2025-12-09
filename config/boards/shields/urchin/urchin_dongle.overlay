@@ -6,5 +6,9 @@
 
 #include "urchin.dtsi"
 
-
+/ {
+    kscan: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+    };
+};
 
