@@ -7,10 +7,16 @@
 #include "urchin.dtsi"
 
 / {
-    kscan: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        row-gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
-        col-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
+    chosen {
+        zmk,kscan = &mock_kscan;
+        zephyr,display = &oled;
+    };
+
+    mock_kscan: kscan_1 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
     };
 };
 
