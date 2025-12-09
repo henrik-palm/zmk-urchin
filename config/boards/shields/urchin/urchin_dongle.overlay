@@ -8,6 +8,10 @@
 #include "urchin.dtsi"
 
 / {
+    chosen {
+        /delete-property/ zmk,kscan; // No key scan device on dongle
+    };
+
     kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         status = "disabled"; // Dongle has no matrix; prevent phantom presses (e.g. stuck Q)
