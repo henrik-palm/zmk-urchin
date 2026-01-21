@@ -129,6 +129,7 @@
 
 		// Base windows alpha layer
 		default_layer {
+            display-name = "WinBase";
 			label = "WinBase";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -145,6 +146,7 @@
 
 		// Main modifiers and arrow keys
 		w_ext_layer {
+            display-name = "WinMods";
 			label = "WinMods";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -164,6 +166,7 @@
 
 		// Numbers and high frequency symbols
 		w_sym_layer {
+            display-name = "WinSym";
 			label = "WinSym";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -183,6 +186,7 @@
 
 		// Function keys with modifiers
 		w_fnc_layer {
+            display-name = "WinFRow";
 			label = "WinFRow";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -202,6 +206,7 @@
 
 		// Low frequency symbols.
 		w_symbols_2_layer {
+            display-name = "WinSym2";
 			label = "WinSym2";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -227,6 +232,7 @@
 
 		// Base mac aplha layer
 		mac_base_layer {
+            display-name = "Mac Base";
 			label = "Mac Base";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -243,6 +249,7 @@
 
 		// Main modifiers and arrow keys
 		m_ext_layer {
+            display-name = "M Mods";
 			label = "M Mods";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -262,6 +269,7 @@
 
 		// Numbers and high frequency symbols
 		m_sym_layer {
+            display-name = "M Sym";
 			label = "M Sym";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -281,6 +289,7 @@
 
 		// Function keys with modifiers
 		m_fnc_layer {
+            display-name = "M FRow";
 			label = "M FRow";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -300,6 +309,7 @@
 
 		// Low frequency symbols.
 		m_symbols_2_layer {
+            display-name = "M Sym2";
 			label = "M Sym2";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -324,6 +334,7 @@
 
 		// Base windows alpha layer
 		linux_base_layer {
+            display-name = "Base";
 			label = "Base";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -340,6 +351,7 @@
 
 		// Main modifiers and arrow keys
 		l_ext_layer {
+            display-name = "Mods";
 			label = "Mods";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -359,6 +371,7 @@
 
 		// Numbers and high frequency symbols
 		l_sym_layer {
+            display-name = "Sym";
 			label = "Sym";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -378,6 +391,7 @@
 
 		// Function keys with modifiers
 		l_fnc_layer {
+            display-name = "Sym2";
 			label = "Sym2";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -397,6 +411,7 @@
 
 		// Low frequency symbols.
 		l_symbols_2_layer {
+            display-name = "Special";
 			label = "Special";
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
@@ -421,8 +436,9 @@
 
         // Used in games with better positioning of asdw.
 		gaming_layer {
-				label = "gaming";
-				bindings = <
+            display-name = "Gaming";
+			label = "gaming";
+			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
             &kp ESC     &kp Q      &kp W      &kp E      &kp R          &kp T      &kp Y      &kp U      &kp I      &kp O
@@ -438,8 +454,9 @@
 
         // Used in games to access numbers
 		gaming_numbers_layer {
-				label = "gaming#";
-				bindings = <
+            display-name = "Gaming#";
+			label = "gaming#";
+			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
               &none     &kp N1     &kp N2     &kp N3     &none          &none      &none      &none      &none      &none
@@ -460,8 +477,9 @@
 
 		// Used to change the keyboard's settings.
 		settings_layer {
-				label = "Settings";
-				bindings = <
+            display-name = "Settings";
+			label = "Settings";
+			bindings = <
 
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│bootloader│          │          │ BT_CLR   │ BT_SEL 0 │   │ BT_SEL 3 │          │ Unstick  │          │bootloader│          
