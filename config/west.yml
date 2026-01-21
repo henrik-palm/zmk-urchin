@@ -4,7 +4,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: carrefinho
-      url-base: https://github.com/carefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,6 +12,6 @@ manifest:
       import: app/west.yml
     - name: prospector-zmk-module
       remote: carrefinho
-      revision: core/zephyr-4-1
+      revision: feat/new-status-screens
   self:
     path: config
