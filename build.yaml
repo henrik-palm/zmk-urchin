@@ -13,19 +13,19 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: urchin_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: urchin_right
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: urchin_left nice_view_adapter #nice_view
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: urchin_right nice_view_adapter #nice_view
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: urchin_dongle prospector_adapter
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: urchin_dongle
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
