@@ -6,7 +6,7 @@ This layout is inspired by [Seniply by Stevep99](https://stevep99.github.io/seni
 
 <div align="center">
   
-  ![sweep-layout](https://github.com/henrik-palm/zmk-urchin/blob/dev/Palm%20Keyboard%20Layout.drawio.svg)
+  ![sweep-layout](./Palm%20Keyboard%20Layout.drawio.svg)
 
 </div>
 
