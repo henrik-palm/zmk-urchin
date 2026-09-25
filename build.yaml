@@ -23,6 +23,11 @@ include:
     shield: urchin_right nice_view_adapter #nice_view
   - board: xiao_ble//zmk
     shield: urchin_dongle prospector_adapter
+    # Display settings belong only to the build with the Prospector adapter.
+    cmake-args: >-
+      -DCONFIG_PROSPECTOR_STATUS_SCREEN_OPERATOR=y
+      -DCONFIG_PROSPECTOR_LAYER_NAME_UPPERCASE=n
+      -DCONFIG_PROSPECTOR_USE_AMBIENT_LIGHT_SENSOR=y
   - board: nice_nano//zmk
     shield: urchin_dongle
   - board: xiao_ble//zmk
