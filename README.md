@@ -1,5 +1,9 @@
 Firmware for: [Urchin Keyboard](https://github.com/duckyb/urchin)
 
+Dongle firmware is built for the nice!nano, Seeed XIAO BLE, and
+[splitkb Halcyon Wireless USB-C Dongle](https://splitkb.com/products/halcyon-wireless-usb-c-dongle).
+Halcyon builds are published separately in the `firmware-halcyon` artifact.
+
 ## Keymap Cheat Sheet
 
 This layout is inspired by [Seniply by Stevep99](https://stevep99.github.io/seniply/)

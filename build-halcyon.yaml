@@ -1,0 +1,6 @@
+---
+include:
+  - board: halcyon_dongle//zmk
+    shield: urchin_dongle
+  - board: halcyon_dongle//zmk
+    shield: settings_reset

@@ -3,3 +3,12 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      archive_name: firmware
+
+  build-halcyon:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      build_matrix_path: build-halcyon.yaml
+      config_path: config-halcyon
+      archive_name: firmware-halcyon
