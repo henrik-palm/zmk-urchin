@@ -7,6 +7,7 @@ jobs:
       archive_name: firmware
 
   build-halcyon:
+    needs: build
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
       build_matrix_path: build-halcyon.yaml
